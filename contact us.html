@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Florist+</title>
+    <link rel="shorcut icon" type="image/jpg" href="images/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CATALOG</a></li>
+                    <li><a href="">PROMOTIONS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <h1>CATALOG</h1>
+</section>
+
+<!--- Contact --->
+
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <div class="text-box">
+            <label for="Full Name:"></label>
+            <input type="text" name="" value="" placeholder="Enter Your Name">
+        </div>
+
+        <div class="text-box">
+            <label for="Email:"></label>
+            <input type="email" name="" value="" placeholder="Enter Your Email">
+        </div>
+
+        <div class="text-box">
+            <label for="Phone Number:"></label>
+            <input type="text" name="" value="" placeholder="Enter Your Phone  Number">
+        </div>
+
+        <div class="text-box">
+            <label for="Message:"></label>
+            <textarea></textarea>
+        </div>
+        <a class="hero-btn">Send</a>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+<!--- Footer --->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Started from humble beginnings, a simple yet dedicated hobby of creating ravishing floral arrangements quickly grew into something much bigger with the tremendous support from our dedicated patrons. <br>
+        In a short amount of time, Sugar Florist+ rose to become a reality as our exquisite bouquets garnered much attention from a long list of clientele and touched the lives of many flower lovers across Malaysia.<br> With our creative vision of curating floral crafts with embodiments of positivity, love and support – Sugar Florist+ follows an unwavering passion to bring a piece of nature’s beauty into your loving arms.
+
+    </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---JScript 4 toggle menu--->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hiddenMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    
+</body>
+</html>
